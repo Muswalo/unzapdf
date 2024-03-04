@@ -1,0 +1,27 @@
+.navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px;
+}
+
+.navbar-nav .form-inline {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-nav .btn-add {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .form-inline {
+        margin-left: 0;
+    }
+
+    .navbar-nav .btn-add {
+        margin-left: 0;
+    }
+}

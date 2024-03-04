@@ -1,0 +1,83 @@
+.card {
+    border-radius: 0;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.fas {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 5px;
+    border: none;
+    padding: 10;
+    background-color: #444e;
+
+}
+
+.btn.btn-ns {
+    background-color: #28a745;
+}
+
+.btn.btn-hss {
+    background-color: #dc3545;
+}
+
+.btn.btn-agric {
+    background-color: #ffc107;
+}
+
+.btn.btn-law {
+    background-color: #17a2b8;
+}
+
+.btn.btn-edu {
+    background-color: #6610f2;
+}
+
+.btn.btn-vet {
+    background-color: #fd7e14;
+}
+
+.btn.btn-eng {
+    background-color: #6c757d;
+}
+
+.btn.btn-mines {
+    background-color: #20c997;
+}
+
+.btn.btn-other {
+    background-color: #343a40;
+}
+
+.slider {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
